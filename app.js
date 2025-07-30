@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       .toString()
       .padStart(2, "0");
 
-    const result = `<span class="digit">${days}</span> / <span class="digit">${hours}</span> / <span class="digit">${minutes}</span> / <span class="digit">${seconds}</span>`;
+    const result = `<span class="digit">${days}</span> Dagen <span class="digit">${hours}</span> Uur <span class="digit">${minutes}</span> Minuten <span class="digit">${seconds}</span> Seconden`;
     document.getElementById("clock").innerHTML = result;
   };
 
